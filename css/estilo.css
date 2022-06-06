@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin-top: 2%;
+	text-align: center;
+	font-size: 1.75em;
+	font-family: fantasy;
+}
+
+h3 {
+	font-family: fantasy;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+div > ul {
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+.title1 {	
+	background: hotpink;
+}
+
+.title2 {
+	background: slateblue;
+}
+
+.title3 {
+	background: darkgreen;
+}
+
+.title1, .title2, .title3 {
+	text-align: center;
+	width: 33.33%;
+	position: relative;
+	left: 66.67%;
+	border: 1px solid black;
+}
+
+.contenido1 {
+	background: grey;	
+	border: 1px solid black;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+	  margin: 1.66%; /*10% / 6 (I have 6 margins here)*/
+	  float: left;
+	  border: 1px solid black;
+	  width: 30.00%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+  	margin: 2.5%; /*10% / 4 (I have 4 margins here)*/
+	  float: left;
+	  border: 1px solid black;
+	}
+	.col-md-6 {
+	 	width: 45%;
+	}
+	.col-md-12 {
+		width: 95%;
+	}
+}	
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+		margin: 2.5%; /*5% / 2 (I have 2 margins here)*/
+	  float: left;
+	  border: 1px solid black;
+		width: 95%;
+	}
+}
