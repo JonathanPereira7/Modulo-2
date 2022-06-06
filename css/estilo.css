@@ -54,19 +54,18 @@ div > ul {
 
 @media (min-width: 992px) {
 	.col-lg-4 {
-		margin: 1.66%; /*10% / 6 (I have 6 margins here)*/
-		margin-top: 3.5%;
-		float: left;
-		border: 1px solid black;
-		width: 30.00%;
+		margin: 3.5% 1.66%; /*10% / 6 (I have 6 horizontal margins here)*/
+	  	float: left;
+	  	border: 1px solid black;
+	 	width: 30.00%;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6, .col-md-12 {
-  		margin: 2.5%; /*10% / 4 (I have 4 margins here)*/
-		float: left;
-		border: 1px solid black;
+		margin: 2.5%; /*10% / 4 (I have 4 horizontal margins here)*/
+	  	float: left;
+	  	border: 1px solid black;
 	}
 	.col-md-6 {
 	 	width: 45%;
@@ -78,10 +77,9 @@ div > ul {
 
 @media (max-width: 767px) {
 	.col-sm-12 {
-		margin: 2.5%; /*5% / 2 (I have 2 margins here)*/
-		margin-top: 1.5%;
-		float: left;
-		border: 1px solid black;
+		margin: 1.5% 2.5% 2.5% 2.5%; /*5% / 2 (I have 2 horizontal margins here)*/
+	  	float: left;
+	  	border: 1px solid black;
 		width: 95%;
 	}
 }
